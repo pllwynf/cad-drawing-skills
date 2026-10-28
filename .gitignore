@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 技能市场元数据 / 本机状态
+_skillhub_meta.json
+*.local.json
+
+# 生成产物与示例输出（可能含真实项目图纸，不入库）
+output/
+output_*/
+*.dxf
+*.dwg
+*.pdf
+*.png
+*.jpg
+*.jpeg
+!references/*.png
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 上传脚本本身不入库
+.github_push.py
